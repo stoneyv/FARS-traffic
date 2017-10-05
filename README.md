@@ -3,8 +3,13 @@ FARS-traffic
 
 The reports folder contains plots from the Jupyter Ipython notebooks and Rstudio
 
-## Fetch Data
+## Download FARS Data for years 2010 until 2015
 data source: ftp://ftp.nhtsa.dot.gov/
+
+```bash
+chmod +x download-data.sh
+./download-data.sh
+```
  
 ## Get the FARS Analytical User's Manual
 Fatality Analysis Reporting System (FARS) Analytical User's Manual 1975-2015
