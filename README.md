@@ -10,6 +10,8 @@ git clone https://github.com/stoneyv/kepler-traffic.git
 
 ## 2. Download FARS Data for years 2010 until 2015
 
+NOTE: For the R ggmap scripts there is transformed file named data/fars_acc_10to15.csv  It is not necessary to download the data and run the python notebooks if you just want to work with the R scripts.  If you want to host larger files in your github repositories, read about git large file storage.  It uses the same git work flow and is easy to install.
+
 data source: ftp://ftp.nhtsa.dot.gov/
 
 ```bash
