@@ -15,8 +15,8 @@ data source: ftp://ftp.nhtsa.dot.gov/
 
 ```bash
 cd FARS-traffic
-chmod +x download-data.sh
-./download-data.sh
+chmod +x download-data-fars.sh
+./download-data-fars.sh
 ``` 
 
 ## 3. Transform the data using jupytr ipython notebooks
