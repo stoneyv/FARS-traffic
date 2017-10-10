@@ -1,11 +1,10 @@
 # FARS-traffic
-FARS-traffic
 
 The reports folder contains plots from the Jupyter Ipython notebooks and Rstudio
 
 ## 1. Clone the repository  
 ```bash
-git clone https://github.com/stoneyv/kepler-traffic.git
+git clone https://github.com/stoneyv/FARS-traffic.git
 ```
 
 ## 2. Download FARS Data for years 2010 until 2015
@@ -15,13 +14,14 @@ NOTE: For the R ggmap scripts there is transformed file named data/fars_acc_10to
 data source: ftp://ftp.nhtsa.dot.gov/
 
 ```bash
-chmod +x download-data.sh
-./download-data.sh
+cd FARS-traffic
+chmod +x download-data-fars.sh
+./download-data-fars.sh
 ``` 
 
 ## 3. Transform the data using jupytr ipython notebooks
 
-Install Anaconda Python3
+Install Anaconda Python3  
 https://docs.continuum.io/anaconda/install
 
 Many of the necessary python packages for analyzing data are automatically installed.
@@ -37,6 +37,6 @@ Fatality Analysis Reporting System (FARS) Analytical User's Manual 1975-2015
 
 
 ## 5. Optional R ggplot2
-Install R language, Rstudio or Rstudio server
+Install R language, Rstudio or Rstudio server  
 https://www.rstudio.com/products/rstudio/
 
