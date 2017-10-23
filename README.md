@@ -1,6 +1,9 @@
 # FARS-traffic
 
-The reports folder contains plots from the Jupyter Ipython notebooks and Rstudio
+NHTSA US Fatality Analysis Reporting System data for years 2010 through 2015.  
+<img src="report/bay_area_fars_density_01to15.png"/>
+
+The reports folder contains plots from the Jupyter Ipython notebooks and R ggmap and ggplot2.
 
 ## 1. Clone the repository  
 ```bash
