@@ -8,7 +8,7 @@ command -v unzip >/dev/null 2>&1 || { echo "unzip not installed.  Aborting." >&2
 
 # Make directories for each year
 if [ ! -e ./data/2010 ]; then
-  mkdir -p ./data/{2010..2015}
+  mkdir -p ./data/{2010..2016}
 fi
 
 
@@ -20,6 +20,7 @@ declare -a fars_urls=( "2010/SAS/FSAS2010.zip"
                        "2013/National/FARS2013NationalSAS.zip"
                        "2014/National/FARS2014NationalSAS.zip"
                        "2015/National/FARS2015NationalSAS.zip")
+                       "2016/National/FARS2015NationalSAS.zip")
 
 # enter the data directory
 pushd data
